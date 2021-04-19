@@ -11,8 +11,6 @@ create a file called 001_add_users.php in migrations folder
 Now that we have created our migration, we need to run it. Let's create a controller called Migrate that will run our migrations:
 
 
-<?php
-
 class migrate extends CI_Controller {
     public function index()
     {
